@@ -23,18 +23,16 @@ Date of finished:
 ### Цель работы
 Ознакомиться с инструментом ContainerLab и методами работы с ним, изучить работу VLAN, IP адресации и т.д.
 ### Ход работы
-###### 1. Создание топологии в ContainerLab
+###### Создание топологии в ContainerLab
 #
 
 ![image](https://github.com/user-attachments/assets/7f542a9f-a1a8-4079-abca-6867d39add79)
 
-```
-
-Конфигурции устройств можно найти в папке configs.
 
 Проверим настройку каждого устройства в сети:
 
 1. Router1
+   
 ![image](https://github.com/user-attachments/assets/43ddd972-ce82-4432-960e-b0db9f365bc8)
 
 2. Switch1
@@ -76,14 +74,13 @@ ip addr show eth1
 
 С помощью команды "ip address print" получим IP устройств.
 
-```
+
 ![image](https://github.com/user-attachments/assets/6c6e0dc9-66b7-42e0-a2b5-dd7802167755)
 ![image](https://github.com/user-attachments/assets/f96aaeac-2246-4649-90b3-02e1df73987d)
 ![image](https://github.com/user-attachments/assets/fd7405b7-d2db-4d74-8f0d-9eb8331a5d78)
 ![image](https://github.com/user-attachments/assets/28483ba2-f949-4bce-be89-4702e25e3d81)
 
 
-```
 
 Вывод команды пинг с PC2:
 
