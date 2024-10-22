@@ -1,0 +1,55 @@
+name: lab2
+
+mgmt: 
+  network: statics
+  ipv4-subnet: 172.20.20.0/24
+
+
+topology:
+
+  nodes:
+    R01.MSK:
+      kind: vr-mikrotik_ros
+      image: vrnetlab/mikrotik_routeros:6.47.9
+      mgmt-ipv4: 172.20.20.2
+      startup-config: /home/anna/Desktop/lab2/MSK.rsc
+
+    R01.FRT:
+      kind: vr-mikrotik_ros
+      image: vrnetlab/mikrotik_routeros:6.47.9
+      mgmt-ipv4: 172.20.20.3
+      startup-config: /home/anna/Desktop/lab2/FRT.rsc
+
+    R01.BRL:
+      kind: vr-mikrotik_ros
+      image: vrnetlab/mikrotik_routeros:6.47.9
+      mgmt-ipv4: 172.20.20.4
+      startup-config: /home/anna/Desktop/lab2/BRL.rsc
+
+    PC1:
+      kind: vr-mikrotik_ros
+      image: vrnetlab/mikrotik_routeros:6.47.9
+      mgmt-ipv4: 172.20.20.5
+      startup-config: /home/anna/Desktop/lab2/PC1.rsc
+
+    PC2:
+      kind: vr-mikrotik_ros
+      image: vrnetlab/mikrotik_routeros:6.47.9
+      mgmt-ipv4: 172.20.20.6
+      startup-config: /home/anna/Desktop/lab2/PC2.rsc
+
+    PC3:
+      kind: vr-mikrotik_ros
+      image: vrnetlab/mikrotik_routeros:6.47.9
+      mgmt-ipv4: 172.20.20.7
+      startup-config: /home/anna/Desktop/lab2/PC3.rsc
+
+
+  links:
+    - endpoints: ["R01.BRL:eth3", "PC3:eth1"]
+    - endpoints: ["R01.FRT:eth3", "PC2:eth1"]
+    - endpoints: ["R01.MSK:eth3", "PC1:eth1"]
+    - endpoints: ["R01.BRL:eth2", "R01.FRT:eth1"]
+    - endpoints: ["R01.FRT:eth2", "R01.MSK:eth2"]
+    - endpoints: ["R01.MSK:eth1", "R01.BRL:eth1"]
+ 
