@@ -84,34 +84,48 @@ topology:
 
 #### Создадим конфигурации для каждого устройства, проверим правильность их настроек:
 
-Роутер MSK
+Роутер MSK:
+
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/R01_MSK.jpg "R01_MSK")
+
+Роутер FRT:
+
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/R01_FRT.jpg "R01_FRT")
 
 
-Роутер FRT
+Роутер BRL:
 
-
-Роутер BRL
-
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/R01_BRL.jpg "R01_BRL")
 
 PC1
 
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/pc1.jpg "pc1")
 
 PC2
 
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/pc2.jpg "pc2")
 
 PC3
 
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/pc3.jpg "pc3")
+
 Узнаем ip каждого из компьютеров:
 
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/ip_pc1.jpg "ip1")
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/ip_pc2.jpg "ip2")
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/ip_pc3.jpg "ip3")
 
 #### Пропингуем компьютеры
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/ping1.jpg "ping1")
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/ping2.jpg "ping2")
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/ping3.jpg "ping3")
 
 
 Поменяем логин и пароль у одного из компьютеров:
-
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/log.jpg "log")
 
 #### Диаграмма топологии:
-
+![](https://github.com/aivanova2472/2024_2025-introduction_in_routing-k3322-ivanova_a_s/blob/main/lab2/screenshots/graph.jpg "graph")
 
 
 ## Вывод ##
